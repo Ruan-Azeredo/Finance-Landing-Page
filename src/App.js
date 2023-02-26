@@ -1,3 +1,4 @@
+import { Tag } from "./comment/Tag";
 import Analytics from "./components/Analytics";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
@@ -13,7 +14,8 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
-      <Footer/>
+      <Footer />
+      <Tag/>
     </div>
   );
 }
